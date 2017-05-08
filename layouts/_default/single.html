@@ -1,0 +1,14 @@
+{{ partial "header" . }}
+{{ partial "nav" . }}
+<section class="section">
+  <div class="container poem">
+    <div class="content">
+      <article>
+        <h1 class="title">{{ .Title }}</h1>
+        <h2 class="author">{{ .Params.author }} &mdash; {{ .Date.Format "2006" }}</h2>
+        {{ .Content }}
+      </article>
+    </div>
+  </div>
+</section>
+{{ partial "footer" . }}

@@ -1,0 +1,86 @@
+body {
+  font-family: YuGothic, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav form.search input {
+  padding: 10px;
+  width: 200px;
+  background-image: url('../search.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  border: solid 1px #69707a;
+}
+
+.nav a {
+  text-decoration: none;
+}
+.nav a h1 {
+  color: #222324;
+  margin: 0;
+}
+
+.content {
+  line-height: 1.75;
+  border: solid 1px #69707a;
+  padding: 30px 0;
+}
+
+.content > article {
+  max-width: 400px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+html {
+  background-color: transparent;
+}
+
+.section {
+  padding: 20px 0;
+}
+
+article .author {
+  color: #69707a;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+article .title {
+  line-height: 1.25;
+  font-size: 31px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.title a {
+  color: #222324;
+}
+  
+article+article {
+  margin-top: 30px;
+}
+
+.content h1, .content h2, .content h3, .content h4 {
+  line-height: 1.25;
+}
+  
+.content article > p {
+  white-space: pre;
+  margin-bottom: 30px;
+}
+
+.content article > p:empty {
+  display: none;
+}

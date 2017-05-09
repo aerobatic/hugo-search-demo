@@ -1,0 +1,15 @@
++++
+title = "Search"
+description = "Search the Aerobatic site"
++++
+
+<h3>Search results for "<%= searchTerm %>"</h3>
+<%= #searchResults %>
+  <article>
+    <div class="title"><a href="<%= &fullUrl %>"><%= title %></a></div>
+    <div class="summary"><%= &snippet %></div>
+  </article>
+<%= /searchResults %>
+<%= zeroResults %>
+<h3>No Results</h3>
+<%= /zeroResults %>

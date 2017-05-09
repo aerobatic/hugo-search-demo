@@ -1,6 +1,21 @@
 id: 0f4edb92-6af6-44b6-839c-62d9b12fbf72
 deploy:
   ignore: []
-  directory: .
+  directory: public
 plugins:
+  - name: keyword-search
+    path: /search/
+    method: get
+    options:
+      resultsTemplate: search/index.html
+      mustacheTags: ['<%=', '%>']
   - name: webpage
+
+scanner:
+  keywordSearch:
+    contentSelectors:
+      - .content p
+    noIndexPatterns:
+      - /search/**
+    titleStripEnd: " | Aerobatic Hugo Search Demo"
+

@@ -64,11 +64,6 @@ article .title {
   margin-bottom: 10px;
 }
 
-article .summary em {
-  font-style: normal;
-  font-weight: bold;
-}
-
 .title a {
   color: #222324;
 }

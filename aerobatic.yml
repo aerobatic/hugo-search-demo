@@ -11,6 +11,7 @@ plugins:
       mustacheTags: ['<%=', '%>']
   - name: webpage
 
+# Configure the site scanner for keyword search
 scanner:
   keywordSearch:
     contentSelectors:
@@ -18,4 +19,8 @@ scanner:
     noIndexPatterns:
       - /search/**
     titleStripEnd: " | Aerobatic Hugo Search Demo"
+    metadataKeys:
+      - description
+      - author
+      - year
 

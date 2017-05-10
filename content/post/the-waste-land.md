@@ -2,7 +2,7 @@
 title = "The Waste Land"
 author = "T.S. Eliot"
 description = "April is the cruellest month, breeding Lilacs out of the dead land, mixing Memory and desire..."
-date = "1922-01-01"
+year = "1922"
 menu = "main"
 +++
 

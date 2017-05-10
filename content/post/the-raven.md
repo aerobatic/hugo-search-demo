@@ -2,7 +2,7 @@
 title = "The Raven"
 author = "Edgar Allan Poe"
 description = "Once upon a midnight dreary, while I pondered, weak and weary, Over many a quaint and curious volume of forgotten..."
-date = "1845-01-01"
+year = "1845"
 menu = "main"
 +++
 

@@ -2,7 +2,7 @@
 title = "A Winter Night"
 author = "Robert Burns"
 description = "When biting Boreas, fell and doure, Sharp shivers thro' the leafless bow'r; When Phoebus gies a short-liv'd glow'r, Far south..."
-date = "1786-01-01"
+year = "1786"
 menu = "main"
 +++
 

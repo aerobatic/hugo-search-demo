@@ -5,7 +5,7 @@
     {{ range (where .Data.Pages "Section" "post").ByTitle }}
       <article>
         <div class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
-        <div class="author">By {{ .Params.author }} &mdash; {{ .Date.Format "2006" }}</div>
+        <div class="author">By {{ .Params.author }} &mdash; {{ .Params.year }}</div>
         <div class="summary">{{ .Description }}</div>
       </article>
     {{ end }}

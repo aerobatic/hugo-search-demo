@@ -6,7 +6,7 @@ description = "Search the site"
 <h3>Search results for "<%= searchTerm %>"</h3>
 <%= #searchResults %>
   <article>
-    <div class="title"><a href="<%= &fullUrl %>"><%= title %></a></div>
+    <div class="title"><a href="<%= &urlPath %>"><%= title %></a></div>
     <div class="author">By <%= author %> &mdash; <%= year %></div>
     <div class="summary"><%= &snippet %></div>
   </article>
@@ -15,3 +15,4 @@ description = "Search the site"
 <%= #zeroResults %>
 <h3>No Results</h3>
 <%= /zeroResults %>
+</div>

@@ -2,7 +2,7 @@
 {{ partial "nav" . }}
 <section class="section">
   <div class="container">
-    {{ range (where .Data.Pages "Section" "post").ByTitle }}
+    {{ range (where .Data.Pages "Section" "poems").ByTitle }}
       <article>
         <div class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
         <div class="author">By {{ .Params.author }} &mdash; {{ .Params.year }}</div>
